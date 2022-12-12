@@ -126,3 +126,4 @@ SELECT alb.name, COUNT(t.name) FROM album alb
 	JOIN track t ON t.album_id = alb.id
 	GROUP BY alb.name
 	ORDER BY COUNT(t.name);
+	
